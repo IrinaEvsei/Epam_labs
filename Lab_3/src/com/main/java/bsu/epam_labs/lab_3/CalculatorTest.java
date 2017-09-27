@@ -18,20 +18,19 @@ public class CalculatorTest {
 
     @Test
     public void subtraction() throws Exception {
-        int subtraction = calculator.addition(3,4);
-        assertEquals("Error in multiplication()",7,subtraction);
-
+        int subtraction = calculator.subtraction(3,4);
+        assertEquals("Error in subtraction()",-1,subtraction);
     }
 
     @Test
     public void division() throws Exception {
-        int division = calculator.addition(3,4);
-        assertEquals("Error in multiplication()",7,division);
+        double division = calculator.division(4,3);
+        assertEquals("Error in division()",1,division);
     }
 
     @Test
     public void multiplication() throws Exception {
-        int multiplication = calculator.addition(3,4);
-        assertEquals("Error in multiplication()",7,multiplication);
+        int multiplication = calculator.multiplication(3,4);
+        assertEquals("Error in multiplication()",12,multiplication);
     }
 }
