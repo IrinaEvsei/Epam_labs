@@ -13,7 +13,7 @@ public class CalculatorTest {
     @Test
     public void addition() throws Exception {
         int addition = calculator.addition(3,4);
-        assertEquals("Error in addition()",7,addition);
+        assertEquals("Error in addition ()",7,addition);
     }
 
     @Test
