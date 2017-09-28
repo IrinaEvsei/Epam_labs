@@ -2,6 +2,8 @@ package com.main.java.bsu.epam_labs.lab_3;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -26,6 +28,17 @@ public class CalculatorTest {
     public void division() throws Exception {
         double division = calculator.division(4,3);
         assertEquals("Error in division()",1,division);
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void testDivisionWithException() {
+        double division = calculator.division(1,0);
+        assertEquals("Error!!! in division()","a cannot be divided by 0!",division);
+    }
+
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void testEmptyList() {
+        new ArrayList<>().get(0);
     }
 
     @Test

@@ -33,29 +33,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="111">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/ExceptionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +69,8 @@
         <option value="$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/Main.java" />
         <option value="$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/test/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/ExceptionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -190,85 +176,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExceptionTest.testEmptyList">
-    <configuration default="false" name="CalculatorTest.infinity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.main.java.bsu.epam_labs.lab_3.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Lab_3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.main.java.bsu.epam_labs.lab_3.test" />
-      <option name="MAIN_CLASS_NAME" value="com.main.java.bsu.epam_labs.lab_3.test.CalculatorTest" />
-      <option name="METHOD_NAME" value="infinity" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalculatorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.main.java.bsu.epam_labs.lab_3.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Lab_3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.main.java.bsu.epam_labs.lab_3.test" />
-      <option name="MAIN_CLASS_NAME" value="com.main.java.bsu.epam_labs.lab_3.test.CalculatorTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalculatorTest.addition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.main.java.bsu.epam_labs.lab_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Lab_3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.main.java.bsu.epam_labs.lab_3" />
-      <option name="MAIN_CLASS_NAME" value="com.main.java.bsu.epam_labs.lab_3.CalculatorTest" />
-      <option name="METHOD_NAME" value="addition" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest.testDivisionWithException">
     <configuration default="false" name="ExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -308,6 +216,84 @@
       <option name="PACKAGE_NAME" value="com.main.java.bsu.epam_labs.lab_3" />
       <option name="MAIN_CLASS_NAME" value="com.main.java.bsu.epam_labs.lab_3.ExceptionTest" />
       <option name="METHOD_NAME" value="testEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculatorTest.testDivisionWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.main.java.bsu.epam_labs.lab_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Lab_3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.main.java.bsu.epam_labs.lab_3" />
+      <option name="MAIN_CLASS_NAME" value="com.main.java.bsu.epam_labs.lab_3.CalculatorTest" />
+      <option name="METHOD_NAME" value="testDivisionWithException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculatorTest.testEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.main.java.bsu.epam_labs.lab_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Lab_3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.main.java.bsu.epam_labs.lab_3" />
+      <option name="MAIN_CLASS_NAME" value="com.main.java.bsu.epam_labs.lab_3.CalculatorTest" />
+      <option name="METHOD_NAME" value="testEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculatorTest.division" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.main.java.bsu.epam_labs.lab_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Lab_3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.main.java.bsu.epam_labs.lab_3" />
+      <option name="MAIN_CLASS_NAME" value="com.main.java.bsu.epam_labs.lab_3.CalculatorTest" />
+      <option name="METHOD_NAME" value="division" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -774,19 +760,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest.infinity" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.addition" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ExceptionTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExceptionTest.testEmptyList" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ExceptionTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExceptionTest.testEmptyList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.testDivisionWithException" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.testEmptyList" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.division" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExceptionTest.testEmptyList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ExceptionTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.addition" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.infinity" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest.testDivisionWithException" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.division" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.testEmptyList" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExceptionTest.testEmptyList" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -806,34 +792,34 @@
       <option name="presentableId" value="Default" />
       <updated>1506419248718</updated>
       <workItem from="1506419258677" duration="2118000" />
-      <workItem from="1506504402289" duration="11443000" />
+      <workItem from="1506504402289" duration="12814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_addition - 2017.09.27 at 21h 17m 22s.xml">
-      <configuration name="CalculatorTest.addition" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_addition - 2017.09.27 at 21h 19m 46s.xml">
       <configuration name="CalculatorTest.addition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_infinity - 2017.09.27 at 20h 47m 11s.xml">
-      <configuration name="CalculatorTest.infinity" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_division - 2017.09.28 at 20h 07m 54s.xml">
+      <configuration name="CalculatorTest.division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_infinity - 2017.09.27 at 20h 48m 13s.xml">
-      <configuration name="CalculatorTest.infinity" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_division - 2017.09.28 at 20h 08m 28s.xml">
+      <configuration name="CalculatorTest.division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_infinity - 2017.09.27 at 20h 49m 59s.xml">
-      <configuration name="CalculatorTest.infinity" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testDivisionWithException - 2017.09.28 at 20h 05m 08s.xml">
+      <configuration name="CalculatorTest.testDivisionWithException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_infinity - 2017.09.27 at 20h 50m 37s.xml">
-      <configuration name="CalculatorTest.infinity" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testDivisionWithException - 2017.09.28 at 20h 05m 54s.xml">
+      <configuration name="CalculatorTest.testDivisionWithException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_infinity - 2017.09.27 at 21h 10m 23s.xml">
-      <configuration name="CalculatorTest.infinity" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testDivisionWithException - 2017.09.28 at 20h 07m 21s.xml">
+      <configuration name="CalculatorTest.testDivisionWithException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_test - 2017.09.27 at 20h 51m 30s.xml">
-      <configuration name="CalculatorTest.test" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testDivisionWithException - 2017.09.28 at 20h 09m 08s.xml">
+      <configuration name="CalculatorTest.testDivisionWithException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testEmptyList - 2017.09.28 at 20h 07m 47s.xml">
+      <configuration name="CalculatorTest.testEmptyList" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExceptionTest - 2017.09.27 at 22h 48m 28s.xml">
       <configuration name="ExceptionTest" configurationId="JUnit" />
@@ -843,11 +829,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13561000" />
+    <option name="totallyTimeSpent" value="14932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -864,7 +850,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -944,26 +930,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/ExceptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="91">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/ExceptionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/epam_labs/lab_3/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="111">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
           </folding>
         </state>
       </provider>
