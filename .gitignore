@@ -1,3 +1,6 @@
 /ChromeDriverTest/.idea
 /ChromeDriverTest/target
 /ChromeDriverTest/*.iml
+*.iml
+target
+/ChromeDriverTest/test.iml
