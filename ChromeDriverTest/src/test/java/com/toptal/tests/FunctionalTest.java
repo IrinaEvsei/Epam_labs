@@ -14,9 +14,13 @@ public class FunctionalTest {
 
     @BeforeTest
     public void openPage(){
-        System.setProperty("webdriver.chrome.driver", getClass().getClassLoader().getResource("chromedriver.exe").getPath());
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        if (driver == null){
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+
+            driver = new ChromeDriver();
+            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        }
     }
 
     @After
@@ -24,8 +28,8 @@ public class FunctionalTest {
         driver.manage().deleteAllCookies();
     }
 
-    @AfterTest
-    public static void tearDown(){
-        driver.close();
+    @AfterTest(description = "Stop browser")
+    public void stopBrowser() {
+        driver.quit();
     }
 }
