@@ -59,14 +59,14 @@ public class LoginTest extends FunctionalTest {
         assertEquals(LOGIN_EXPECTED_MASSAGE, homePage.confirmationTitle());
     }
 
-//    @Test (priority = 2)
-//    public void provideDetails(){
-//
-//        ProvideDetailsPage provideDetailsPage = new ProvideDetailsPage(driver);
-//        provideDetailsPage.enterData(FULL_LEGAL_NAME, ABOUT_ME);
-//        provideDetailsPage.fieldIsFilled(COUNTRY,CITIZENSHIP,SKILLS);
-//        provideDetailsPage.pagesubmit();
-//    }
+    @Test (priority = 2)
+    public void provideDetails(){
+
+        ProvideDetailsPage provideDetailsPage = new ProvideDetailsPage(driver);
+        provideDetailsPage.enterData(FULL_LEGAL_NAME, ABOUT_ME);
+        provideDetailsPage.fieldIsFilled(COUNTRY,CITIZENSHIP,SKILLS);
+        provideDetailsPage.pagesubmit();
+    }
 
     @Test(priority = 3)
     public void screeningPage(){
