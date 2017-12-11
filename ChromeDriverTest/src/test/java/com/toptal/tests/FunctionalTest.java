@@ -18,8 +18,8 @@ public class FunctionalTest {
             System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
 
             driver = new ChromeDriver();
-            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
         }
     }
 

@@ -2,6 +2,7 @@ package com.toptal.tests.login;
 
 import com.toptal.pages.home.DesignersPage;
 import com.toptal.pages.home.ProvideDetailsPage;
+import com.toptal.pages.home.ScreeningPage;
 import com.toptal.pages.login.LoginPage;
 import com.toptal.pages.home.HomePage;
 import com.toptal.tests.FunctionalTest;
@@ -25,6 +26,8 @@ public class LoginTest extends FunctionalTest {
     private static final String CITIZENSHIP = "Belarus";
     private static final String EXPECTED_TITLE = "Hire the World's Best Designers";
     private static final String SKILLS = "UI Design";
+    private static final String SEE_INTERVIEW = "essential UI Design interview questions.";
+    private static final String SKILLS_TXT_HINT = "UI DesignerAdobe Photoshop+5 more";
 
     @Test(priority = 0)
     public void loginFailed(){
@@ -56,20 +59,43 @@ public class LoginTest extends FunctionalTest {
         assertEquals(LOGIN_EXPECTED_MASSAGE, homePage.confirmationTitle());
     }
 
-    @Test (priority = 2)
-    public void provideDetails(){
+//    @Test (priority = 2)
+//    public void provideDetails(){
+//
+//        ProvideDetailsPage provideDetailsPage = new ProvideDetailsPage(driver);
+//        provideDetailsPage.enterData(FULL_LEGAL_NAME, ABOUT_ME);
+//        provideDetailsPage.fieldIsFilled(COUNTRY,CITIZENSHIP,SKILLS);
+//        provideDetailsPage.pagesubmit();
+//    }
 
-        ProvideDetailsPage provideDetailsPage = new ProvideDetailsPage(driver);
-        provideDetailsPage.enterData(FULL_LEGAL_NAME, ABOUT_ME);
-        provideDetailsPage.fieldIsFilled(COUNTRY,CITIZENSHIP,SKILLS);
-        provideDetailsPage.pagesubmit();
+    @Test(priority = 3)
+    public void screeningPage(){
+        ScreeningPage screeningPage = new ScreeningPage(driver);
+        assertTrue(screeningPage.isClientsListExist());
     }
 
-    @Test (priority = 3)
-    public void screeningPage(){
+    @Test(priority = 4)
+    public void screeningPageFirstTest(){
         DesignersPage designersPage = new DesignersPage(driver);
-        designersPage.openFinishPage();
-        assertEquals(EXPECTED_TITLE, designersPage.getTitle());
+        assertTrue(designersPage.isGuidExist());
+        assertEquals(designersPage.seeInterview(),SEE_INTERVIEW);
+        assertTrue(designersPage.linkedinLink());
+    }
+
+    @Test(priority = 5)
+    public void screeningPageSecondTest(){
+        DesignersPage designersPage = new DesignersPage(driver);
+        assertEquals(designersPage.isSkillsTxtHintExist(),SKILLS_TXT_HINT);
+
+    }
+
+    @Test (priority = 6)
+    public void screeningPageThirdTest() {
+        DesignersPage designersPage = new DesignersPage(driver);
+        if (designersPage.isLabelExist()) {
+            designersPage.openFinishPage();
+            assertEquals(EXPECTED_TITLE, designersPage.getTitle());
+        }
     }
 
 }

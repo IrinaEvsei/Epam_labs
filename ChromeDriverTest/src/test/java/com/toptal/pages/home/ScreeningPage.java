@@ -9,13 +9,17 @@ public class ScreeningPage extends ProvideDetailsPage {
     public ScreeningPage(WebDriver driver) {
         super(driver);
     }
-//You have successfully submitted account details.
 
     @FindBy(className="is-notice")
     private WebElement successfullySubmitted;
 
+    @FindBy(className = "blog_post-clients")
+    private WebElement clientsList;
+
     @FindBy(xpath="//a[contains( text(),'Toptal Freelance')]")
     private WebElement linkForTap;
+
+    public boolean isClientsListExist() {return clientsList.isDisplayed(); }
 
     public DesignersPage openDesignersPage() {
         Actions actions = new Actions(driver);
